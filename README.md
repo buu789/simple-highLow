@@ -22,5 +22,6 @@ The random.h file utilizes the [Mersenne Twister PRNG](https://en.wikipedia.org/
 ```
 
 I have used the steady_clock from the chrono library and 7 different random values generated from [std::random_device](https://en.cppreference.com/cpp/numeric/random/random_device) to initialize the seed.
+
 -------------------------------
 
