@@ -4,9 +4,9 @@ A game where you try to guess a randomly generated between 1 and 100.
 
 -------------------------------
 
-The code can consists of two files - random.h and highLow.cpp 
+The code consists of two files - random.h and highLow.cpp 
 
-The random.h file utilizes the [Mersenne Twister PRNG](https://en.wikipedia.org/wiki/Mersenne_Twister) (The sequence repeats after 624 numbers but as this is an trivial game oh high-low, this limitation shouldn't hamper the play(unless you are a try hard and write down all 624 generated number )) included in the random library.
+The random.h file utilizes the [Mersenne Twister PRNG](https://en.wikipedia.org/wiki/Mersenne_Twister) (The sequence repeats after 624 numbers but as this is a trivial game of high-low, this limitation shouldn't hamper the play(unless you are a try hard and write down all 624 generated numbers)) included in the random library.
 
 ```
     inline std::mt19937 generate(){
